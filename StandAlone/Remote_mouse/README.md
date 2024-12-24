@@ -7,4 +7,6 @@
    ```
    python3 -m http.server 80
    ```
-3. 
+3. Edit upload.py at line 119 and run
+   ```
+   
