@@ -18,5 +18,5 @@
    ```
 6. Edit exploit.py at line 119 and run
    ```
-   python2 exploit.py
+   python2 exploit.py target_ip
    ```
